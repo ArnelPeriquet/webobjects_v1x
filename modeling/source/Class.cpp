@@ -48,7 +48,7 @@ Type & Class::GetAttributeType(std::string iName) {
 
 Class & Class::AddAttribute(std::string iName, Type & iType) {
     if (mAttributes.find(iName) != mAttributes.end())
-        throw std::invalid_argument("attempt to add attribute that already exists");
+        throw std::invalid_argument("attempt to add attribute that already exists, name=" + iName);
 
     mAttributes[iName] = &iType;
 

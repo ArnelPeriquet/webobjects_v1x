@@ -54,8 +54,8 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>..\Debug;..\lib\curl-7.22.0\Lib_vc10;..\lib\boost_1_47_0\lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>modeling.lib;encoding.lib;libcurl-d.lib;libboost_unit_test_framework-vc100-mt-gd-1_47.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\Debug;..\lib\boost_1_47_0\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>modeling.lib;encoding.lib;libboost_unit_test_framework-vc100-mt-gd-1_47.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
