@@ -17,11 +17,8 @@
 
 #pragma warning (disable : 4251)
 
-#include "targetver.h"
-
-#include "modeling_dll.h"
-#include "encoding_dll.h"
 #include "service_registry_dll.h"
+#include "modeling_dll.h"
 
 #include <windows.h>
 #include <stdio.h>
@@ -34,7 +31,8 @@
 #include <iostream>
 #include <map>
 #include <vector>
-#include <boost/optional.hpp>
 
+
+// NO 3RD PARTY DEPENDENCIES ARE REQUIRED TO BUILD THIS PROJECT
 
 // TODO: reference additional headers your program requires here

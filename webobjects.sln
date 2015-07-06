@@ -10,9 +10,15 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Main", "Main\Main.vcxproj",
 	ProjectSection(ProjectDependencies) = postProject
 		{FF9BF217-8D1B-45B9-80FF-61E20AD2FCB7} = {FF9BF217-8D1B-45B9-80FF-61E20AD2FCB7}
 		{FD63797A-C1CF-4204-9E96-ED3404D90D7F} = {FD63797A-C1CF-4204-9E96-ED3404D90D7F}
+		{38EF357E-9333-43E6-B4A0-DCCA5BCFCDFE} = {38EF357E-9333-43E6-B4A0-DCCA5BCFCDFE}
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "modeling", "modeling\modeling.vcxproj", "{FD63797A-C1CF-4204-9E96-ED3404D90D7F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "service_registry", "service_registry\service_registry.vcxproj", "{38EF357E-9333-43E6-B4A0-DCCA5BCFCDFE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FD63797A-C1CF-4204-9E96-ED3404D90D7F} = {FD63797A-C1CF-4204-9E96-ED3404D90D7F}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +38,10 @@ Global
 		{FD63797A-C1CF-4204-9E96-ED3404D90D7F}.Debug|Win32.Build.0 = Debug|Win32
 		{FD63797A-C1CF-4204-9E96-ED3404D90D7F}.Release|Win32.ActiveCfg = Release|Win32
 		{FD63797A-C1CF-4204-9E96-ED3404D90D7F}.Release|Win32.Build.0 = Release|Win32
+		{38EF357E-9333-43E6-B4A0-DCCA5BCFCDFE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{38EF357E-9333-43E6-B4A0-DCCA5BCFCDFE}.Debug|Win32.Build.0 = Debug|Win32
+		{38EF357E-9333-43E6-B4A0-DCCA5BCFCDFE}.Release|Win32.ActiveCfg = Release|Win32
+		{38EF357E-9333-43E6-B4A0-DCCA5BCFCDFE}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
